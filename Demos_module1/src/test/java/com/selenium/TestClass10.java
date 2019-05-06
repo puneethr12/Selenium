@@ -23,7 +23,7 @@ WebDriver driver;
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\training_b7c.06.13\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://10.232.237.143:443/TestMeApp");
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 	}
 	
 	@AfterTest
