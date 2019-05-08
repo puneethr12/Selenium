@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67338" started-at="2019-05-08T06:28:31Z" finished-at="2019-05-08T06:29:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34732" started-at="2019-05-08T06:28:31Z" finished-at="2019-05-08T06:29:06Z">
+      <class name="com.grid.GridTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.grid.GridTest@66d33a]" name="setUp" is-config="true" duration-ms="9265" started-at="2019-05-08T11:58:31Z" finished-at="2019-05-08T11:58:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.195.182.244:5411/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.grid.GridTest@66d33a]" name="openApplication" duration-ms="25330" started-at="2019-05-08T11:58:40Z" finished-at="2019-05-08T11:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.grid.GridTest@66d33a]" name="tearDown" is-config="true" duration-ms="129" started-at="2019-05-08T11:59:05Z" finished-at="2019-05-08T11:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.grid.GridTest -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="32557" started-at="2019-05-08T06:29:06Z" finished-at="2019-05-08T06:29:38Z">
+      <class name="com.grid.GridTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.grid.GridTest@b684286]" name="setUp" is-config="true" duration-ms="9038" started-at="2019-05-08T11:59:06Z" finished-at="2019-05-08T11:59:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.195.182.230:5411/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.grid.GridTest@b684286]" name="openApplication" duration-ms="23375" started-at="2019-05-08T11:59:15Z" finished-at="2019-05-08T11:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.grid.GridTest@b684286]" name="tearDown" is-config="true" duration-ms="143" started-at="2019-05-08T11:59:38Z" finished-at="2019-05-08T11:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.grid.GridTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

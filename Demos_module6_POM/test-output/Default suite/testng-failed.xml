@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.advanced.TestClass001">
+      <class name="com.advanced.Test_Class003_Dependency">
         <methods>
-          <include name="login3"/>
-          <include name="login2"/>
+          <include name="register"/>
+          <include name="login"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- com.advanced.TestClass001 -->
+      </class> <!-- com.advanced.Test_Class003_Dependency -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

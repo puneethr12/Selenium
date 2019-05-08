@@ -6,7 +6,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners(com.Listeners.TestListener.class)
-public class TestClass001 {
+public class TestClass001_Listeners {
 	
 	//Intentionally passing a test case
 	@Test
